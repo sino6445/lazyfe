@@ -12,10 +12,9 @@ Lazy front end 輕量化的前端程式碼。不須使用設定複雜的React or
 * Lazyfe 自適配PC/Mobile網頁。
 
 **內容**<br>
-1. [Demo](https://lazyfe.sino6445.link/)<br>
-2. [Docs](https://lazyfe.sino6445.link/docs)<br>
-3. [Changelog](https://github.com/sino6445/lazyfe#changelog)<br>
-4. [License](https://github.com/sino6445/lazyfe#license)<br>
+1. [Docs](https://lazyfe.sino6445.link/docs)<br>
+2. [Changelog](https://github.com/sino6445/lazyfe#changelog)<br>
+3. [License](https://github.com/sino6445/lazyfe#license)<br>
 
 ## Requirements ##
 1. [Boostrap 5](https://getbootstrap.com/)<br>
