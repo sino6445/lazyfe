@@ -8,6 +8,8 @@ Lazy front end 輕量化的前端程式碼。不須使用設定複雜的React or
 * Lazyfe API參數傳遞方便，故使用程式碼乾淨清楚，大部分API一行解決。
 * Lazyfe API回傳element ID，可搭配jQuery / JS做後續使用。
 * Lazyfe 整合Boostrap5，整合管理dialog/upload progress，輕鬆方便。
+* Lazyfe 統整所有對話視窗，一次修改整個網站套用。
+* Lazyfe 自適配PC/Mobile網頁。
 
 **內容**<br>
 1. [Changelog](https://github.com/sino6445/lazyfe#changelog)<br>
