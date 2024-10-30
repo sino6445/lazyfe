@@ -1,7 +1,7 @@
 # Lazyfe
 
 #歡迎使用, lazy front end
-Lazy front end 輕量化的前端程式碼。不須使用設定複雜的React or Vue框架，直接整合了jQuery，所以沒有學習期和學習曲線的問題.適合需要快速開發的中小型專案。
+Lazy front end 輕量化的前端程式碼。不須使用設定複雜的React or Vue框架，直接整合了jQuery，對已熟悉jQuery的工程師來說，沒有學習期和學習曲線的問題.適合需要快速開發的中小型專案。
 
 ## 為何要使用Lazyfe? ##
 * Lazyfe 使用了promise callback避免callback hell。
