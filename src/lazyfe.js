@@ -4,6 +4,8 @@
   (c) Sino Pan - @sino6445 - http://lazyfe.sino6445.link/
 */
 ;
+//create unique view id
+const createUniqueId = (() => (id = 0, () => id++))();
 (function(root, lazyfe) {
     if (typeof root.Lazyfe ==="undefined"){
         root.Lazyfe = lazyfe();
@@ -12,8 +14,7 @@
     'use strict';
     //resolve bootstrap not defined warnning in js
     var bootstrap=window.bootstrap;
-    //create unique view id
-    const createUniqueId = (() => (id = 0, () => id++))();
+    
     //const view id prefix
     let idPrefix="lazyfeViewModal-";
     
@@ -141,7 +142,7 @@
             sizeClass=" modal-sm";
         }
         //init back
-        let back=data.back?`<button type="button" class="btn-back" data-bs-dismiss="modal" aria-label="返回"></button>`:``;
+        let back=data.back?`<button type="button" class="btn btn-back"><i class="bi bi-arrow-left"></i></button>`:``;
         //init close
         let close=!data.disableClose?`<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>`:``;
         //check element exists, if exists remove it first
